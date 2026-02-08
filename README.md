@@ -1,29 +1,30 @@
 # Bloxd Launcher
 
-Bloxd.io とその派生・ミラーサイトを統合した、デバッグ機能付きのカスタムランチャーです。
-[English README.md](https://github.com/cod-git12/Bloxd_Launcher_en_README.md)
+A high-performance custom launcher for Bloxd.io and its various derivatives/mirror sites, featuring built-in debug tools.\
+[日本語説明](ja_README.md)
 
-## 🚀 主な機能
+## 🚀 Features
 
-* **マルチリンク対応**: 公式、開発版、ミラーサイト、教育用偽装サイトなど40以上のリンクを搭載。
-* **リアルタイム検索**: サイト名で即座にフィルタリングが可能。
-* **vConsole 搭載**: ゲームプレイ中にデバッグログを確認可能（ランチャーに戻ると自動破棄）。
-* **かんたん操作**: 左上のボタンからいつでもランチャーへ戻れます。
+* **Multi-Site Support**: Over 40 links included, covering Official, Dev, Staging, Mirror, and Proxy sites.
+* **Instant Search**: Quickly filter through the extensive list of sites with the real-time search bar.
+* **Integrated vConsole**: Access a mobile-friendly debug console during gameplay (automatically destroyed when returning to the launcher).
+* **Seamless Navigation**: Easily switch back to the launcher menu using the "Back to Launcher" button.
+* **Responsive Design**: Optimized for PC, Tablet, and Mobile devices.
 
-## 🛠 使い方
+## 🛠 How to Use
 
-1. `index.html` をブラウザで開きます。
-2. 検索バーを利用して、プレイしたいサイトを探します。
-3. カードをクリックするとゲームが開始されます。
-4. 画面左上の「Back to Launcher」をクリックすると、ゲームを終了してランチャーに戻ります。
+1. Open `index.html` in any modern web browser.
+2. Use the search bar to find your preferred Bloxd site.
+3. Click a card to launch the game instantly.
+4. Click "Back to Launcher" in the top-left corner to stop the game and return to the menu.
 
-## 📂 ファイル構成
+## 📂 File Structure
 
-* `index.html`: ランチャー本体（HTML/CSS/JS 完結型）
+* `index.html`: The core launcher (Standalone HTML/CSS/JS).
 
-## ⚖️ ライセンス
+## ⚖️ License
 
-このプロジェクトは **Apache License 2.0** の下で公開されています。
+This project is licensed under the **Apache License 2.0**.
 
 ```text
 Copyright 2026 cod-git12
@@ -39,3 +40,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
+
+Disclaimer: This project is an unofficial fan-made tool and is not affiliated with Bloxd.io.
