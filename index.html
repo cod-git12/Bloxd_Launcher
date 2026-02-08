@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloxd Launcher</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+</head>
+<body>
+
+  <button id="back-btn">← Back to Launcher</button>
+
+  <div id="launcher">
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Enter and Search..." autocomplete="off">
+    </div>
+
+    <div class="launcher-grid" id="grid">
+      <div class="launcher-card" data-url="https://bloxd.io/" style="color:#22c55e">
+        <div class="launcher-title">bloxd.io</div>
+      </div>
+      <div class="launcher-card" data-url="https://staging.bloxd.io/" style="color:#eab308">
+        <div class="launcher-title">staging.bloxd.io</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxd.dev/" style="color:#a855f7">
+        <div class="launcher-title">bloxd.dev</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxd.com/" style="color:#3b82f6">
+        <div class="launcher-title">bloxd.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdhop.io/" style="color:#14b8a6">
+        <div class="launcher-title">bloxdhop.io</div>
+      </div>
+      <div class="launcher-card" data-url="https://eviltower.io/" style="color:#ef4444">
+        <div class="launcher-title">eviltower.io</div>
+      </div>
+      <div class="launcher-card" data-url="https://doodlecube.io/" style="color:#38bdf8">
+        <div class="launcher-title">doodlecube.io</div>
+      </div>
+      <div class="launcher-card" data-url="https://skillhub.vip/" style="color:#f97316">
+        <div class="launcher-title">skillhub.vip</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxed.space/" style="color:#f43f5e">
+        <div class="launcher-title">bloxed.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxed.net/" style="color:#fb7185">
+        <div class="launcher-title">bloxed.net</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdio.space/" style="color:#60a5fa">
+        <div class="launcher-title">bloxdio.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdk12.com/" style="color:#c084fc">
+        <div class="launcher-title">bloxdk12.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://playbloxd.com/" style="color:#22d3ee">
+        <div class="launcher-title">playbloxd.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://unblockedbloxd.com/" style="color:#f87171">
+        <div class="launcher-title">unblockedbloxd.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://unblockedbloxd.us" style="color:#fb7185">
+        <div class="launcher-title">unblockedbloxd.us</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdunblocked.com/" style="color:#ef4444">
+        <div class="launcher-title">bloxdunblocked.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdunblocked.space/" style="color:#f43f5e">
+        <div class="launcher-title">bloxdunblocked.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdunblocked.org/" style="color:#fb7185">
+        <div class="launcher-title">bloxdunblocked.org</div>
+      </div>
+      <div class="launcher-card" data-url="https://bloxdunblocked.work/" style="color:#f87171">
+        <div class="launcher-title">bloxdunblocked.work</div>
+      </div>
+      <div class="launcher-card" data-url="https://unbloxd.com/" style="color:#fb923c">
+        <div class="launcher-title">unbloxd.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://unbloxd.site/" style="color:#fdba74">
+        <div class="launcher-title">unbloxd.site</div>
+      </div>
+      <div class="launcher-card" data-url="https://bedwarsonline.net/" style="color:#34d399">
+        <div class="launcher-title">bedwarsonline.net</div>
+      </div>
+      <div class="launcher-card" data-url="https://bedwars.space/" style="color:#2dd4bf">
+        <div class="launcher-title">bedwars.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://unblockedgames.club/" style="color:#a3e635">
+        <div class="launcher-title">unblockedgames.club</div>
+      </div>
+      <div class="launcher-card" data-url="https://iogamesunblocked.com/" style="color:#84cc16">
+        <div class="launcher-title">iogamesunblocked.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://buildhub.work/" style="color:#10b981">
+        <div class="launcher-title">buildhub.work</div>
+      </div>
+      <div class="launcher-card" data-url="https://buildhub.club/" style="color:#06b6d4">
+        <div class="launcher-title">buildhub.club</div>
+      </div>
+      <div class="launcher-card" data-url="https://classcraft.space/" style="color:#3b82f6">
+        <div class="launcher-title">classcraft.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://classcraft.site/" style="color:#6366f1">
+        <div class="launcher-title">classcraft.site</div>
+      </div>
+      <div class="launcher-card" data-url="https://collabspace.space/" style="color:#8b5cf6">
+        <div class="launcher-title">collabspace.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://creativebuilding.site/" style="color:#d946ef">
+        <div class="launcher-title">creativebuilding.site</div>
+      </div>
+      <div class="launcher-card" data-url="https://creativebuilding.space/" style="color:#f43f5e">
+        <div class="launcher-title">creativebuilding.space</div>
+      </div>
+      <div class="launcher-card" data-url="https://buildminecraft.com/" style="color:#f59e0b">
+        <div class="launcher-title">buildminecraft.com</div>
+      </div>
+      <div class="launcher-card" data-url="https://math.wales/" style="color:#ec4899">
+        <div class="launcher-title">math.wales</div>
+      </div>
+      <div class="launcher-card" data-url="https://math.cmyru/" style="color:#f472b6">
+        <div class="launcher-title">math.cmyru</div>
+      </div>
+      <div class="launcher-card" data-url="https://math.icu/" style="color:#fb7185">
+        <div class="launcher-title">math.icu</div>
+      </div>
+      <div class="launcher-card" data-url="https://geometry.com.de/" style="color:#fbbf24">
+        <div class="launcher-title">geometry.com.de</div>
+      </div>
+      <div class="launcher-card" data-url="https://geometry.quest/" style="color:#fcd34d">
+        <div class="launcher-title">geometry.quest</div>
+      </div>
+      <div class="launcher-card" data-url="https://geometries.top/" style="color:#a3e635">
+        <div class="launcher-title">geometries.top</div>
+      </div>
+      <div class="launcher-card" data-url="https://trigonometry.website/" style="color:#4ade80">
+        <div class="launcher-title">trigonometry.website</div>
+      </div>
+      <div class="launcher-card" data-url="https://geology.top/" style="color:#2dd4bf">
+        <div class="launcher-title">geology.top</div>
+      </div>
+      <div class="launcher-card" data-url="https://archeology.top/" style="color:#22d3ee">
+        <div class="launcher-title">archeology.top</div>
+      </div>
+    </div>
+  </div>
+
+  <iframe id="game-iframe" allow="fullscreen; gamepad; keyboard; microphone; camera"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
